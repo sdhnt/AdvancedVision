@@ -1,0 +1,5 @@
+Img= imread('Images/uni.png')
+whos Img
+R = Img(:,:,1) ;%Red
+G = Img (:,:,2) ; %Green
+B = Img (:,:,3)
